@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1 align="center">青春不常在， 抓紧谈恋爱</h1>
+    <form>
+        <table cellspacing="0" cellpadding="10" align="center">
+            <!-- 性别-->
+            <tr align="center">
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male"><img src="" alt="male"> 男 </label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female"><img src="" alt="female"> 女 </label>
+                </td>
+            </tr>
+
+            <!-- 生日-->
+            <tr align="center">
+                <td>生日：</td>
+                <td>
+                    <select>
+                        <option>-请选择-</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
+                    年
+
+                    <select>
+                        <option>-请选择-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    月
+
+                    <select>
+                        <option>-请选择-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    日
+                </td>
+            </tr>
+
+            <!-- 地区-->
+            <tr align="center">
+                <td>地区：</td>
+                <td>
+                    <input type="text" name="address" value="请填写详细地址">
+                </td>
+            </tr>
+
+            <!-- 婚姻状况-->
+            <tr align="center">
+                <td>婚姻状况：</td>
+                <td>
+                    <input type="radio" name="marriage" value="single" id="single" checked>
+                    <label for="single">单身</label>
+                    <input type="radio" name="marriage" value="married" id="married">
+                    <label for="married">已婚</label>
+                    <input type="radio" name="marriage" value="divorce" id="divorce">
+                    <label for="divorce">离异</label>
+                </td>
+            </tr>
+
+            <!-- 学历-->
+             <tr align="center">
+                <td>学历：</td>
+                <td>
+                    <select>
+                        <option>-请选择-</option>
+                        <option>初中</option>
+                        <option>高中</option>
+                        <option>大专</option>
+                        <option>本科</option>
+                        <option>研究生</option>
+                        <option>博士</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- 爱好-->
+             <tr align="center">
+                <td>爱好：</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="reading" id="reading">
+                    <label for="reading">阅读</label>
+                    <input type="checkbox" name="hobby" value="swimming" id="swimming">
+                    <label for="swimming">游泳</label>
+                    <input type="checkbox" name="hobby" value="hiking" id="hiking">
+                    <label for="hiking">登山</label>
+                    <input type="checkbox" name="hobby" value="travel" id="travel">
+                    <label for="travel">旅游</label>
+                    <input type="checkbox" name="hobby" value="photography" id="photography">
+                    <label for="photography">摄影</label>
+                </td>
+            </tr>
+
+            <!-- 自我介绍-->
+             <tr align="center">
+                <td>自我介绍：</td>
+                <td>
+                    <textarea name="introduction" rows="5" cols="50">请填写你的个人介绍，让大家认识你。
+                    </textarea>
+                </td>
+            </tr>
+
+            <!-- 注册按钮-->
+            <tr align="center">
+                <td colspan="2" align="center" height="50">
+                    <input type="submit" value="注册">
+                    <input type="reset" value="重置">
+                </td>
+            </tr>
+
+            <!-- 登录提示-->
+            <tr>
+                <td colspan="2" align="center" height="30">
+                    已有账号？
+                    <a href="#">点击此处立即登录</a>
+                </td>
+            </tr>
+
+            <!-- 同意协议-->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox" checked="checked" name="agree" value="agree" id="agree">
+                    <label for="agree">我已阅读并同意《用户协议》</label>
+                </td>
+            </tr>
+
+            <!-- 承诺-->
+            <tr>
+                <td colspan="2">
+                    <h3 align="center">我承诺</h3>
+                    <ul>
+                        <li>1. 我已仔细阅读并理解《用户协议》</li>
+                        <li>2. 我会遵守国家法律法规，尊重他人合法权益，不得利用本网站进行任何违法活动</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
