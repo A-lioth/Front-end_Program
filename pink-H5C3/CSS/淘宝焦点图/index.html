@@ -11,16 +11,20 @@
             padding: 0;
         }
 
+        li {
+            list-style: none;
+        }
+
         .tb-promo {
             position: relative;
             width: 520px;
             height: 280px;
-            background-color: pink;
         }
 
         img {
             width: 520px;
             height: 280px;
+            object-fit: cover;
         }
 
         .prev {
@@ -48,14 +52,45 @@
             line-height: 30px;
             text-decoration: none;
         }
+
+        .promo-nav {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 15px;
+            background: rgba(255, 255, 255, .3);
+            border-radius: 7px;
+        }
+
+        .promo-nav li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #fff;
+            margin: 3px;
+        }
+
+        .promo-nav .seleted {
+            background-color: #ff5000;
+        }
     </style>
 </head>
 
 <body>
     <div class="tb-promo">
-        <img src="https://img.alicdn.com/imgextra/i4/175959801/TB2_y1hX9XXXXbFXpXXXXXXXXXX_!!175959801.jpg" alt="">
+        <img src="https://gw.alicdn.com/imgextra/i1/2212290550/O1CN01z1GHaM1FvwmQL9K6U_!!2212290550.jpg" alt="图片加载失败">
         <a href="#" class="prev">&lt;</a>
         <a href="#" class="next">&gt;</a>
+        <ul class="promo-nav">
+            <li class="seleted"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
 </body>
 
