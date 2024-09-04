@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>三角妙用</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .price {
+                width: 140px;
+                height: 25px;
+                line-height: 25px;
+                border: 1px solid red;
+            }
+            .left {
+                position: relative;
+                float: left;
+                width: 80px;
+                height: 100%;
+                background-color: red;
+                text-align: center;
+                color: #fff;
+                font-weight: 700;
+                margin-left: -10px;
+                margin-right: 6px;
+            }
+            .right {
+                position: relative;
+                font-size: 14px;
+                color: gray;
+                text-decoration: line-through;
+            }
+            .left i {
+                position: absolute;
+                top: 0;
+                right: 0px;
+                width: 0;
+                height: 0;
+                border-color: transparent #fff transparent transparent;
+                border-style: solid;
+                border-width: 26px 10px 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="price">
+            <span class="left"> ￥1999
+            <i></i></span>
+            <span class="right"> ￥2999 </span>
+        </div>
+    </body>
+</html>
