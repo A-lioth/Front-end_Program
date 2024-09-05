@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* em 和 i 中斜体的文字不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+img {
+    /* 解决低版本浏览器图片外包含链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底部有空白缝隙的问题 */
+    vertical-align: middle;
+}
+button {
+    /* 鼠标经过按钮时，改变鼠标为手型样式 */
+    cursor: pointer;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #c81623;
+}
+/* "\5B8B\4F53" - simsun 宋体 */
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+        "\5B8B\4F53", sans-serif;
+}
+body {
+    /* 解决文字放大后，字体模糊的问题 -CSS3特性 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+        "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+.hide,
+.none {
+    display: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
