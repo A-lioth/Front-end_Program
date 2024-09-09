@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>属性选择器</title>
+        <style>
+            div[class="1"] {
+                width: 100px;
+                height: 50px;
+                background-color: yellow;
+            }
+            div[class="2"] {
+                width: 100px;
+                height: 50px;
+                background-color: gray;
+            }
+            div[class="3"] {
+                width: 100px;
+                height: 50px;
+                background-color: purple;
+            }
+            input[type^="text"] {
+                width: 200px;
+                height: 30px;
+                background-color: green;
+            }
+            span[class$="0"] {
+                font-size: 20px;
+                color: skyblue;
+            }
+            p[class*="23"] {
+                font-size: 30px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 属性选择器 -->
+        <div class="1"></div>
+        <div class="2"></div>
+        <div class="3"></div>
+        <!-- ^= 匹配属性值以指定字符串开头的元素 -->
+        <input type="text1" name="" id="" />
+        <input type="text2" name="" id="" />
+        <input type="text3" name="" id="" />
+        <!-- $= 匹配属性值以指定字符串结尾的元素 -->
+        <span class="span10">666</span>
+        <span class="span20">666</span>
+        <!-- *= 匹配属性值包含指定字符串的元素 -->
+        <p class="p123">999</p>
+        <p class="p234">999</p>
+    </body>
+</html>
