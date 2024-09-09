@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>结构伪类选择器</title>
+    </head>
+    <style>
+        ul li:nth-child(even) {
+            background-color: pink;
+        }
+        ul li:nth-child(2n) {
+            background-color: purple;
+        }
+        ul li:nth-child(odd) {
+            background-color: lightblue;
+        }
+        ul li:first-child {
+            background-color: aqua;
+        }
+        ul li:last-child {
+            background-color: yellow;
+        }
+        ul li:nth-child(5) {
+            background-color: orange;
+        }
+    </style>
+    <body>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+    </body>
+</html>
