@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>伪元素选择器</title>
+        <style>
+            div {
+                width: 200px;
+                height: 200px;
+                background-color: #333;
+                color: #fff;
+            }
+            /* 伪元素默认样式：行内元素 */
+            div::before {
+                content: "hello";
+                color: #fff;
+            }
+
+            div::after {
+                content: "world";
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div>,</div>
+    </body>
+</html>
