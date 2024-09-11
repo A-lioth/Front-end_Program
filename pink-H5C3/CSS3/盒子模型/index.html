@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>盒子模型</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .box {
+                width: 200px;
+                height: 200px;
+                background-color: lightblue;
+                border: 10px solid #000;
+                padding: 10px;
+                /* box-sizing: content-box; */
+            }
+            p {
+                width: 200px;
+                height: 200px;
+                background-color: lightblue;
+                border: 10px solid #000;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- * box-sizing: content-box -->
+        <!-- * 不会把 padding 和 border 加到 width 和 height 上 -->
+        <div class="box">乔治</div>
+        <p>佩奇</p>
+    </body>
+</html>
