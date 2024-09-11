@@ -5,25 +5,90 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>伪元素选择器</title>
         <style>
-            div {
+            .test {
                 width: 200px;
                 height: 200px;
                 background-color: #333;
                 color: #fff;
             }
+
             /* 伪元素默认样式：行内元素 */
-            div::before {
+            .test::before {
                 content: "hello";
                 color: #fff;
             }
 
-            div::after {
+            .test::after {
                 content: "world";
                 color: #fff;
+            }
+
+            .font-icon {
+                position: relative;
+                width: 200px;
+                height: 50px;
+                border: 1px solid #333;
+            }
+
+            .font-icon::after {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 20px;
+                content: ">";
+            }
+            .tudou {
+                position: relative;
+                width: 444px;
+                height: 320px;
+            }
+
+            .tudou img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .tudou::before {
+                content: "";
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5)
+                    url("https://img.ixintu.com/upload/jpg/20210524/4e0942f23a6e261564904980e753c448_37462_512_512.jpg")
+                    no-repeat center;
+                background-size: 10%;
+            }
+
+            .tudou:hover::before {
+                display: block;
+            }
+
+            /* 清除浮动 */
+            .clearfix::before,
+            .clearfix::after {
+                content: "";
+                display: table;
+            }
+
+            .clearfix::after {
+                clear: both;
             }
         </style>
     </head>
     <body>
-        <div>,</div>
+        <div class="test">,</div>
+        <!-- * 字体图标 -->
+        <div class="font-icon"></div>
+        <!-- * 土豆网显隐遮罩 -->
+        <div class="tudou">
+            <img
+                src="https://gw.alicdn.com/imgextra/i1/2212290550/O1CN01z1GHaM1FvwmQL9K6U_!!2212290550.jpg"
+                alt=""
+            />
+        </div>
     </body>
 </html>
