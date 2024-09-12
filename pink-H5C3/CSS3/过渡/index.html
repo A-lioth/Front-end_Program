@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>过渡</title>
+        <style>
+            .test {
+                width: 200px;
+                height: 100px;
+                background-color: lightblue;
+                /* transition: 变换属性 变换时间 变换曲线 延迟; */
+                transition: width 0.5s, height 0.5s;
+                transition: all 0.5s;
+            }
+            .test:hover {
+                width: 400px;
+                height: 200px;
+                background-color: pink;
+            }
+            .bar {
+                width: 150px;
+                height: 15px;
+                border: 1px solid red;
+                border-radius: 7px;
+                padding: 1px;
+            }
+            .bar_in {
+                width: 50%;
+                height: 100%;
+                background-color: red;
+                transition: all 0.5s;
+            }
+            .bar:hover .bar_in {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="test"></div>
+        <!-- * 进度条 -->
+        <div class="bar">
+            <div class="bar_in"></div>
+        </div>
+    </body>
+</html>
