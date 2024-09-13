@@ -34,6 +34,41 @@
             .bar:hover .bar_in {
                 width: 100%;
             }
+            .mi-logo {
+                width: 150px;
+                height: 150px;
+                background-color: orange;
+            }
+            .logo {
+                position: relative;
+                width: 300px;
+                height: 120px;
+                padding: 10px;
+                transition: all 0.5s;
+            }
+            .mi-logo:hover .logo{
+                margin-left: -150px;
+            }
+            .mi-logo:hover .logo1 {
+                opacity: 0;
+            }
+            .logo:hover .logo2 {
+                opacity: 1;
+            }
+            .logo img {
+                position: absolute;
+                top: 15px;
+                width: 120px;
+                height: 120px;
+            }
+            .logo1 {
+                left: 15px;
+                opacity: 0.7;
+            }
+            .logo2 {
+                right: 35px;
+                opacity: 0;
+            }
         </style>
     </head>
     <body>
@@ -41,6 +76,21 @@
         <!-- * 进度条 -->
         <div class="bar">
             <div class="bar_in"></div>
+        </div>
+        <!-- * 小米logo过渡效果 -->
+        <div class="mi-logo">
+            <div class="logo">
+                <img
+                    class="logo1"
+                    src="https://s3.xchuxing.com/xchuxing/carousel/2023/12/26/8143a202312262004146446.png"
+                    alt=""
+                />
+                <img
+                    class="logo2"
+                    src="https://pic.baike.soso.com/p/20131221/20131221174024-912240027.jpg"
+                    alt=""
+                />
+            </div>
         </div>
     </body>
 </html>
