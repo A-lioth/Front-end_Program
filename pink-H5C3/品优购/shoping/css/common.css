@@ -47,3 +47,22 @@
     font-family: "icomoon";
     margin-left: 6px;
 }
+/* 头部 */
+.header {
+    position: relative;
+    height: 105px;
+    background-color: lightblue;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 175px;
+    height: 56px;
+}
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url("../images/logo.png") no-repeat;
+    font-size: 0;
+}
