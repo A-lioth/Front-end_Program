@@ -88,3 +88,11 @@
     font-size: 16px;
     color: #fff;
 }
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+.hotwords a {
+    margin: 0 10px;
+}
