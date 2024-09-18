@@ -36,6 +36,9 @@
 .news-bd li {
     height: 24px;
     line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .life-service {
     height: 209px;
@@ -52,6 +55,61 @@
     height: 70px;
     border-right: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.life-service li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: #e4e4e4;
+    margin-top: 12px;
+}
+.life-service .huafei i {
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+.life-service .jipiao i {
+    background: url(../images/icons.png) no-repeat -79px -16px;
+}
+.life-service .jipiao {
+    position: relative;
+}
+.life-service li .jian {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../images/jian.jpg) no-repeat;
+}
+.life-service .dianyingpiao i {
+    background: url(../images/icons.png) no-repeat -141px -16px;
+}
+.life-service .youxi i {
+    background: url(../images/icons.png) no-repeat -205px -16px;
+}
+.life-service .caipiao i {
+    background: url(../images/icons.png) no-repeat -17px -86px;
+}
+.life-service .jiayouka i {
+    background: url(../images/icons.png) no-repeat -79px -86px;
+}
+.life-service .jiudian i {
+    background: url(../images/icons.png) no-repeat -141px -86px;
+}
+.life-service .huochepiao i {
+    background: url(../images/icons.png) no-repeat -206px -86px;
+}
+.life-service .zhongchou i {
+    background: url(../images/icons.png) no-repeat -17px -156px;
+}
+.life-service .licai i {
+    background: url(../images/icons.png) no-repeat -79px -156px;
+}
+.life-service .lipinka i {
+    background: url(../images/icons.png) no-repeat -141px -152px;
+}
+.life-service .baitiao i {
+    background: url(../images/icons.png) no-repeat -205px -156px;
 }
 .bargain {
     margin-top: 5px;
