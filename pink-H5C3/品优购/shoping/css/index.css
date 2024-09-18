@@ -1,0 +1,58 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-bd li {
+    height: 24px;
+    line-height: 24px;
+}
+.life-service {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    border-bottom: 0;
+}
+.life-service ul {
+    width: 252px;
+}
+.life-service li {
+    float: left;
+    width: 62.25px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.bargain {
+    margin-top: 5px;
+}
