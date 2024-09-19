@@ -114,3 +114,40 @@
 .bargain {
     margin-top: 5px;
 }
+/* recommend */
+.recommend {
+    height: 163px;
+    margin-top: 12px;
+}
+.recom-hd {
+    float: left;
+    width: 207px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+.recom-hd img {
+    margin: 0 auto 10px;
+}
+.recom-bd {
+    float: left;
+}
+.recom-bd li {
+    position: relative;
+    float: left;
+}
+.recom-bd li img {
+    width: 248px;
+    height: 163px;
+}
+.recom-bd li:nth-child(-n + 3)::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
