@@ -151,3 +151,62 @@
     height: 145px;
     background-color: #ddd;
 }
+/* 家用电器 */
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+.tab-list li a {
+    margin: 0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box-bd {
+    height: 361px;
+}
+.tab-list-item > div {
+    float: left;
+}
+.col-210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col-210 ul {
+    padding-left: 12px;
+}
+.col-210 li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col-329 {
+    width: 329px;
+}
+.col-221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col-219 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
