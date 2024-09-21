@@ -1,0 +1,55 @@
+/* 解决导航栏因行高过高导致的问题 */
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 3px 14px;
+}
+.sk-list {
+    float: left;
+}
+.sk-list li {
+    float: left;
+}
+.sk-list li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk-con {
+    float: left;
+}
+.sk-con li {
+    float: left;
+}
+.sk-con li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk-con li:last-child a::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
+.sk-bd li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.sk-bd li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk-bd li:hover {
+    border: 1px solid #c81523;
+}

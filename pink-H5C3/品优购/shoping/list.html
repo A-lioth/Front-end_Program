@@ -17,6 +17,8 @@
         <link rel="stylesheet" href="css/base.css" />
         <!-- * 引入公共样式 -->
         <link rel="stylesheet" href="css/common.css" />
+        <!-- * 引入列表页样式 -->
+        <link rel="stylesheet" href="css/list.css" />
     </head>
     <body>
         <!-- * 快捷导航 -->
@@ -56,6 +58,10 @@
             <div class="logo">
                 <h1><a href="index.html" title="品优购商城">品优购商城</a></h1>
             </div>
+            <!-- * 列表页秒杀 -->
+            <div class="sk">
+                <img src="images/sk.png" alt="" />
+            </div>
             <!-- * 搜索框 -->
             <div class="search">
                 <input type="search" name="" id="" placeholder="请输入关键字" />
@@ -80,42 +86,39 @@
         <!-- * 导航 -->
         <nav class="nav">
             <div class="w">
-                <div class="dropdown">
-                    <div class="dt">全部商品分类</div>
-                    <div class="dd">
-                        <ul>
-                            <li><a href="#">家居百货</a></li>
-                            <li><a href="#">服装服饰</a></li>
-                            <li><a href="#">电脑办公</a></li>
-                            <li><a href="#">手机数码</a></li>
-                            <li><a href="#">母婴玩具</a></li>
-                            <li><a href="#">食品饮料</a></li>
-                            <li><a href="#">图书音像</a></li>
-                            <li><a href="#">汽车用品</a></li>
-                            <li><a href="#">家装建材</a></li>
-                            <li><a href="#">运动户外</a></li>
-                            <li><a href="#">医疗保健</a></li>
-                            <li><a href="#">清洁美容</a></li>
-                            <li><a href="#">鞋靴箱包</a></li>
-                            <li><a href="#">生鲜特产</a></li>
-                            <li><a href="#">美妆护肤</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="navitems">
+                <div class="sk-list">
                     <ul>
-                        <li><a href="#">服装城</a></li>
-                        <li><a href="#">美妆馆</a></li>
-                        <li><a href="#">鞋包配饰</a></li>
-                        <li><a href="#">母婴玩具</a></li>
-                        <li><a href="#">食品饮料</a></li>
-                        <li><a href="#">图书音像</a></li>
-                        <li><a href="#">运动户外</a></li>
-                        <li><a href="#">医疗保健</a></li>
+                        <li><a href="#">品优秒杀</a></li>
+                        <li><a href="#">即将售罄</a></li>
+                        <li><a href="#">超值低价</a></li>
+                    </ul>
+                </div>
+                <div class="sk-con">
+                    <ul>
+                        <li><a href="#">女装</a></li>
+                        <li><a href="#" class="style-red">女鞋</a></li>
+                        <li><a href="#">男装</a></li>
+                        <li><a href="#">男装</a></li>
+                        <li><a href="#">母婴童装</a></li>
+                        <li><a href="#">鞋包配件</a></li>
+                        <li><a href="#">美妆护肤</a></li>
+                        <li><a href="#">数码家电</a></li>
+                        <li><a href="#">更多分类</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- * main -->
+        <div class="w sk-container">
+            <div class="sk-hd">
+                <img src="upload/bg_03.png" alt="" />
+            </div>
+            <div class="sk-bd">
+                <ul class="clearfix">
+                    <li><img src="upload/list.jpg" alt="" /></li>
+                </ul>
+            </div>
+        </div>
         <!-- * 底部 -->
         <footer class="footer">
             <div class="w">
