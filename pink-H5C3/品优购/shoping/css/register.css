@@ -31,3 +31,38 @@ header {
 .login a {
     color: #c81523;
 }
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg-form li {
+    margin-bottom: 20px;
+}
+.reg-form li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg-form li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81523;
+}
+.error-icon,
+.success-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+}
+.success {
+    color: green;
+}
+.success-icon {
+    background-image: url(../images/success.png) no-repeat;
+}
