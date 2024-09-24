@@ -48,6 +48,9 @@ header {
     height: 37px;
     border: 1px solid #ccc;
 }
+.reg-form li:nth-child(6) input {
+    width: 15px;
+}
 .error {
     color: #c81523;
 }
@@ -65,4 +68,50 @@ header {
 }
 .success-icon {
     background-image: url(../images/success.png) no-repeat;
+}
+.safe {
+    padding-left: 170px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.safe .weak {
+    background-color: #de1111;
+}
+.safe .mid {
+    background-color: #40b83f;
+}
+.safe .strong {
+    background-color: #f79100;
+}
+.agreement {
+    padding-left: 95px;
+}
+.agreement input {
+    vertical-align: middle;
+}
+.agreement a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 0 0 90px;
+}
+.mod-copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.mod-copyright .links {
+    margin-bottom: 15px;
+}
+.mod-copyright .links a {
+    padding: 0 10px;
+}
+.mod-copyright .copyright {
+    line-height: 20px;
 }
