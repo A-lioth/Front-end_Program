@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>请假页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 44px;
+            border-bottom: 8px solid #f8f8fa;
+            font-size: 14px;
+            text-align: left;
+            line-height: 44px;
+            font-weight: 500;
+            color: #17bf6a;
+            background: rgba(23, 191, 106, .08);
+        }
+
+        header i {
+            margin: 0 13px;
+        }
+
+        body h3 {
+            font-weight: 400;
+            font-size: 16px;
+            margin: 0 12px;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(38, 38, 38, .15);
+        }
+
+        body .left {
+            float: left;
+            width: 105px;
+            height: 24px;
+            font-size: 17px;
+            color: #969696;
+            margin-right: 12px;
+        }
+
+        body .right {
+            float: left;
+            height: 19px;
+            font-size: 17px;
+            color: #5f5f5f;
+        }
+
+        body .cause-left {
+            width: 105px;
+            height: 24px;
+            font-size: 17px;
+            color: #969696;
+            margin-bottom: 12px;
+        }
+
+        body .cause-right {
+            height: 24px;
+            font-size: 17px;
+            color: #5f5f5f;
+        }
+
+        body .item-cause {
+            height: 58px;
+            padding: 8px 16px;
+        }
+
+        body .bd {
+            padding: 8px 0;
+            border-bottom: 8px solid #f8f8fa;
+        }
+
+        body .bd .item {
+            height: 24px;
+            line-height: 24px;
+            padding: 8px 16px;
+        }
+
+        footer {
+            position: relative;
+            width: 100%;
+            height: 17px;
+            padding: 8px 16px;
+            display: inline-block;
+            box-sizing: border-box;
+            height: 44px;
+            margin: 0;
+            padding: 0;
+            font-size: 17px;
+            background-color: #2e8cf0;
+            color: #fff;
+            line-height: 17px;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        footer span {
+            position: absolute;
+            width: 84px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <i>%</i>
+        已审核通过 2024年11月02日11时28分
+    </header>
+
+    <body>
+        <h3>基本信息</h3>
+        <div class="bd">
+            <div class="item">
+                <div class="left">
+                    <span>学号</span>
+                </div>
+                <div class="right">20231797</div>
+            </div>
+            <div class="item">
+                <div class="left">姓名</div>
+                <div class="right">张三</div>
+            </div>
+            <div class="item">
+                <div class="left">院系</div>
+                <div class="right">计算机科学与技术学院</div>
+            </div>
+            <div class="item">
+                <div class="left">专业</div>
+                <div class="right">计算机科学与技术</div>
+            </div>
+            <div class="item">
+                <div class="left">班级</div>
+                <div class="right">计算机科学与技术231</div>
+            </div>
+            <div class="item">
+                <div class="left">现在年级</div>
+                <div class="right">2023</div>
+            </div>
+        </div>
+        <h3>请假信息</h3>
+        <div class="bd">
+            <div class="item">
+                <div class="left">
+                    <span>请假性质</span>
+                </div>
+                <div class="right">事前请假</div>
+            </div>
+            <div class="item">
+                <div class="left">请假开始时间</div>
+                <div class="right">2024-11-02 11:28</div>
+            </div>
+            <div class="item">
+                <div class="left">请假结束时间</div>
+                <div class="right">2024-11-02 11:30</div>
+            </div>
+            <div class="item-cause">
+                <div class="cause-left">请假事由</div>
+                <div class="cause-right">不想上课</div>
+            </div>
+            <div class="item">
+                <div class="left">请假天数</div>
+                <div class="right">0.07</div>
+            </div>
+            <div class="item">
+                <div class="left">是否出校</div>
+                <div class="right">否</div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <span>拍照定位销假</span>
+    </footer>
+</body>
+
+</html>
